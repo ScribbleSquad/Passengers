@@ -11,7 +11,7 @@ context "Scribble Squad" do
       context "next" do
         setup do
           Passenger.config do |c|
-            c.env "next"
+            c.enviroment "next"
           end
         end
         asserts("url") { Passenger.config.url}.equals "http://next.passengers.scribblesquad.com/emails"        
@@ -20,7 +20,7 @@ context "Scribble Squad" do
       context "live" do
         setup do
           Passenger.config do |c|
-            c.env "live"
+            c.enviroment "live"
           end
         end
         asserts("url") { Passenger.config.url}.equals "http://passengers.scribblesquad.com/emails"        

@@ -5,7 +5,7 @@ module Passenger
     end
     attr_reader :url
       # Access the API in test mode
-      def env(name)
+      def enviroment(name)
         case name 
         when "next"
           @url = 'http://next.passengers.scribblesquad.com/emails'
