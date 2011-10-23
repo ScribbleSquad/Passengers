@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "lib/passenger.rb",
     "lib/passenger/config.rb",
+    "passengers.gemspec",
     "test/passengers_test.rb",
     "test/teststrap.rb"
   ]
