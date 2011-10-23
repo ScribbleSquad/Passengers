@@ -8,4 +8,4 @@ rescue Bundler::BundlerError => e
   exit e.status_code
 end
 require 'riot'
-require 'passengers'
+require 'passenger'
