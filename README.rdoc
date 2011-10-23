@@ -1,6 +1,14 @@
 = passengers
 
-Description goes here.
+gem "Passengers", :git => "git@github.com:ScribbleSquad/Passengers.git"
+
+Usage:
+
+Passenger.config do |c|
+    c.enviroment "live"
+end
+
+url = Passenger.config.url
 
 == Contributing to passengers
  
