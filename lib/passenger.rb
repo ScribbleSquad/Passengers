@@ -17,7 +17,7 @@ module Passenger
     end
 
      def add(email,ip,tags)
-        result = RestClient.post 'http://passengers.dev/emails', "email[address]" => email, "email[ip]" => ip, "source" => tags
+        result = RestClient.post config.url , "email[address]" => email, "email[ip]" => ip, "source" => tags
       end
   end
 end
