@@ -1,5 +1,5 @@
 require "rest-client"
-require "passenger/config"
+require "scribblesquad/config"
 
 module Passenger
   class << self
