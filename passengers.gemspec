@@ -24,8 +24,8 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
-    "lib/passenger.rb",
-    "lib/passenger/config.rb",
+    "lib/scribblesquad.rb",
+    "lib/scribblesquad/config.rb",
     "passengers.gemspec",
     "test/passengers_test.rb",
     "test/teststrap.rb"
