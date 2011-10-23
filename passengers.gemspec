@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
     "test/passengers_test.rb",
     "test/teststrap.rb"
   ]
-  s.homepage = "http://github.com/cococoder/passengers"
+  s.homepage = "http://github.com/scribblesquad/passengers"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.10"

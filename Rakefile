@@ -15,7 +15,7 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "passengers"
-  gem.homepage = "http://github.com/cococoder/passengers"
+  gem.homepage = "http://github.com/scribblesquad/passengers"
   gem.license = "MIT"
   gem.summary = %Q{The Scribble Squad passenger gem}
   gem.description = %Q{Records a email address in the scribblesquad passenger service`©}
