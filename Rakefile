@@ -18,7 +18,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/cococoder/passengers"
   gem.license = "MIT"
   gem.summary = %Q{The Scribble Squad passenger gem}
-  gem.description = %Q{Records a email address in the scribblesquad passenger service}
+  gem.description = %Q{Records a email address in the scribblesquad passenger service`©}
   gem.email = "shout@cococoder.com"
   gem.authors = ["Coco Coder"]
   # dependencies defined in Gemfile
